@@ -1,9 +1,6 @@
 import requests
 import streamlit as st
-from dotenv import load_dotenv
 
-
-load_dotenv()
 
 BASE_API_URL = "https://api.langflow.astra.datastax.com"
 LANGFLOW_ID = "59a5eeb8-4f77-4369-b3b0-fc763acbabe7"
